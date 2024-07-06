@@ -51,5 +51,8 @@ php app.phar -o file.png
 
 to take a screenshot.
 
+> [!NOTE]
+> You will still need Php 8.3 installed on your machine.
+
 > [NOTE]
 > For more information and features refer to [catpaw](https://github.com/razshare/catpaw).
