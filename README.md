@@ -42,7 +42,7 @@ You will need Php 8.3 (or greater), Go and C++ installed on your machine.
 - Refer to https://go.dev/doc/install in order to install Go.
 - You can install C++ requirements by running the following in your terminal
   ```sh
-  sudo apt install build-essential
+  apt install build-essential
   ```
 
 # Or use Prebuilts
