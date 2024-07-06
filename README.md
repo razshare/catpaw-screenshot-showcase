@@ -29,6 +29,27 @@ php app.phar -o file.png
 
 ![Peek 2024-07-06 15-55](https://github.com/razshare/catpaw-screenshot-showcase/assets/6891346/fe8272d8-5606-4125-978b-b9494324bbe7)
 
+# Requirements
+
+You will need Php 8.3 (or greater), Go and Cpp installed on your machine.
+
+- Refer to https://go.dev/doc/install in order to install Go.
+- You can install Cpp requirements by running the following in your terminal
+  ```sh
+  sudo apt install build-essential
+  ```
+
+# Prebuilts
+
+If you don't wanna bother installing Go and Cpp, simply download the prebuilt binaries from [here](https://github.com/razshare/catpaw-screenshot-showcase/releases).
+
+Extract the app.zip file and execute
+
+```sh
+php app.phar -o file.png
+```
+
+to take a screenshot.
 
 > [NOTE]
 > For more information and features refer to [catpaw](https://github.com/razshare/catpaw).
