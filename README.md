@@ -17,13 +17,15 @@ This is a showcase of how easy it is to interop between Php and Go using [catpaw
 # Run without building
 
 ```php
-com prod:start -- -o file.png
+composer update && \
+composer prod:start -- -o file.png
 ```
 
 # Build portable file and run it
 
 ```php
-com prod:build && \
+composer update && \
+composer prod:build && \
 php app.phar -o file.png
 ```
 
@@ -63,6 +65,9 @@ It comes baked in with [catpaw](https://github.com/razshare/catpaw) and you can 
 ```sh
 php catpaw.phar -g vendor/catpaw/catpaw/src/lib/Go/Resources/CaptureScreen/main.go
 ```
+
+> [!NOTE]
+> The catpaw.phar program is automatically downloaded in your project when you run `composer update`.
 
 > [!NOTE]
 > For more information and features refer to [catpaw](https://github.com/razshare/catpaw).
