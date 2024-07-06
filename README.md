@@ -54,5 +54,11 @@ to take a screenshot.
 > [!NOTE]
 > You will still need Php 8.3 installed on your machine.
 
+
+# Where's the source code?
+
+The source code for the Go library can be found in your [vendor/catpaw/catpaw/src/lib/Go/Resources/CaptureScreen/main.go](https://github.com/razshare/catpaw/blob/master/src/lib/Go/Resources/CaptureScreen/main.go).\
+It comes baked int with [catpaw](https://github.com/razshare/catpaw).
+
 > [!NOTE]
 > For more information and features refer to [catpaw](https://github.com/razshare/catpaw).
