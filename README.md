@@ -39,7 +39,7 @@ You will need Php 8.3 (or greater), Go and Cpp installed on your machine.
   sudo apt install build-essential
   ```
 
-# Prebuilts
+# Or use Prebuilts
 
 If you don't wanna bother installing Go and Cpp, simply download the prebuilt binaries from [here](https://github.com/razshare/catpaw-screenshot-showcase/releases).
 
