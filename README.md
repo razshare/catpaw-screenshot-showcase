@@ -1,3 +1,7 @@
+# What is this?
+
+This is a Php program that takes screenshots of your screen natively.
+
 # Premise
 
 I don't know if this works on Windows or MacOS, I don't use neither of those platforms, I've tested this only on Ubuntu (Zorin OS).
