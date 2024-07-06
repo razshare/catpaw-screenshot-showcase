@@ -58,7 +58,11 @@ to take a screenshot.
 # Where's the source code?
 
 The source code for the Go library can be found in your [vendor/catpaw/catpaw/src/lib/Go/Resources/CaptureScreen/main.go](https://github.com/razshare/catpaw/blob/master/src/lib/Go/Resources/CaptureScreen/main.go).\
-It comes baked in with [catpaw](https://github.com/razshare/catpaw).
+It comes baked in with [catpaw](https://github.com/razshare/catpaw) and you can compile it with
+
+```sh
+php catpaw.phar -g vendor/catpaw/catpaw/src/lib/Go/Resources/CaptureScreen/main.go
+```
 
 > [!NOTE]
 > For more information and features refer to [catpaw](https://github.com/razshare/catpaw).
