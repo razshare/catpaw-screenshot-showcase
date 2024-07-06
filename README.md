@@ -1,15 +1,12 @@
-Catpaw Web Starter
+# Run without building
 
-Start the development application using
-
-```bash
-composer dev:start
+```php
+com prod:start -- -o file.png
 ```
 
-or
+# Build portable file and run it
 
-```bash
-composer dev:watch
+```php
+com prod:build && \
+php app.phar -o file.png
 ```
-
-which will restart the application whenever a change is detected in your _src_ directory.
